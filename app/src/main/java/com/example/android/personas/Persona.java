@@ -48,6 +48,7 @@ public class Persona {
     public void setPasatiempo(String pasatiempo) {
         this.pasatiempo = pasatiempo;
     }
+
     public void guardar(){
         Datos.guardar(this);
     }
